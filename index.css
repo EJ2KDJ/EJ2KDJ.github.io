@@ -1,0 +1,193 @@
+html{
+    font-family: 'Montserrat', sans-serif; 
+}
+body{
+    margin: 0;
+    background-color: #165460;
+}
+h1{
+    color: lightseagreen;
+    text-align: center;
+}
+
+h3{
+    padding-left: 10px;
+}
+
+img{
+    width: 70%;
+}
+
+
+ul{
+    background-color: teal;
+    list-style-type: none;
+    margin-bottom: 20px;
+    
+}
+
+form{
+   align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: lightseagreen;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+nav{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px;
+      
+  }
+
+
+
+/* Ids */
+
+#Wt{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    
+}
+
+#contact_heading{
+    background-color: lightgray;
+    margin: 0 auto;
+    padding: 10px;
+}
+#homep{
+    display: flex;
+    max-width: 100%;
+    background-color: lightseagreen;
+    line-height: 1.5;
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+#aboutp{
+    background-color: lightseagreen;
+    display: flex;
+    max-width: 700px;
+    border-radius: 10px;
+    border: 0;
+    line-height: 1.5;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#footerp{
+
+    text-align: center;
+    text-decoration: underline;
+}
+
+#name{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 12px;
+    margin: 5px;
+}  
+#email{
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 12px;
+    margin: 5px;
+}
+#submit{
+    background-color: #20b2aa;
+    box-shadow: 3px 3px 3px  #1D9D96;
+    text-decoration: none;
+    color: black;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: lightseagreen;
+      
+  }
+
+  
+#social-ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+  }
+  #social-ul a{
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  #social-ul i{
+    font-size: 40px;
+    color: #fff;
+    margin: 0 10px;
+  }
+
+
+/* Classes */
+
+.nav-link:hover{
+    
+    border-radius: 5px;
+    transform: scale(1.1);
+    background-color: #154360 ;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+}
+
+.pi{
+    text-align: left;
+}
+
+.flex-container {
+    margin: 10px;
+    display: flex;
+}
+
+.product {
+    text-align: center;
+    padding: 15px;
+    flex: 1;
+    background-color: lightseagreen;
+    border-radius: 0.5rem;
+}  
+
+.product:first-child {
+    margin-right: 20px;
+} 
+
+
+
+
+.links{
+    align-items: flex-end;
+    display: flex;
+    padding:15px;
+}
+
+
+.nav-link{
+    
+    padding:20px;
+    color: black;
+    text-decoration: none;
+    margin: 0 25px;
+  }
+
+
+
+
+
+
+
+
+
