@@ -14,5 +14,4 @@ if($_POST["submit"]) {
        $thankYou="<p> thank you! Your message has been sent.</p>";
 }
 
-
 ?>
