@@ -17,9 +17,21 @@
 </head>
 <body>
     <h1 >Contact us</h1>
-    <form method="post" action="contact.php">
-      <textarea name="message" id="" cols="30" rows="10"></textarea>
-      <input type="submit" >
+
+    <?=$thankYou ?>
+ 
+    <form method="post" action="contact.php" >
+      <label >Name:</label>
+      <input name="sender">
+
+      <label >Email Address:</label>
+      <input name="senderEmail">
+
+      <label>Message:</label>
+      <textarea name="message"  cols="20" rows="5"></textarea>
+
+      <input type="submit" name="submit">
     </form>
+
 </body>
 </html>
