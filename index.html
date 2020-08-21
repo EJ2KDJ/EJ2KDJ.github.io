@@ -34,13 +34,51 @@
       <p class="pi">This Logitech G502 HERO features an advanced optical sensor for maximum tracking accuracy, customizable RGB lighting, custom game profiles, from 100 up to 16,000 DPI, and repositionable weights.</p>
       <br>
       <p class="pi">Want this? Go to our Products page to find out more!</p>
+
+      
+
     </div>
     
   </div>
 
 
+  
+
  </body>
 
+
+ <div id="paypal-container">
+  <div id="paypal-button-container"></div>
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=PHP" data-sdk-integration-source="button-factory"></script>
+  <script>
+    paypal.Buttons({
+        style: {
+            shape: 'rect',
+            color: 'blue',
+            layout: 'horizontal',
+            label: 'pay',
+            tagline: 'false',
+            size: 'responsive',
+
+            
+        },
+        createOrder: function(data, actions) {
+            return actions.order.create({
+                purchase_units: [{
+                    amount: {
+                        value: '1'
+                    }
+                }]
+            });
+        },
+        onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+                alert('Transaction completed by ' + details.payer.name.given_name + '!');
+            });
+        }
+    }).render('#paypal-button-container');
+  </script>
+ </div>
  <footer>
    <div>
   <ul id="social-ul">
