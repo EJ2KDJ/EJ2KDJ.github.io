@@ -1,0 +1,83 @@
+<html>
+  <head>
+  <title>My Now Amazing Webpage</title>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  </head>
+  <body>
+
+  <div class="your-class">
+    <div>your content</div>
+    <div>your content</div>
+    <div>your content</div>
+  </div>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        setting-name: setting-value
+      });
+    });
+
+    $(".slider").slick({
+
+// normal options...
+infinite: false,
+
+// the magic
+responsive: [{
+
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 3,
+      infinite: true
+    }
+
+  }, {
+
+    breakpoint: 600,
+    settings: {
+      slidesToShow: 2,
+      dots: true
+    }
+
+  }, {
+
+    breakpoint: 300,
+    settings: "unslick" // destroys slick
+
+  }]
+});
+
+// On swipe event
+$('.your-element').on('swipe', function(event, slick, direction){
+console.log(direction);
+// left
+});
+
+// On edge hit
+$('.your-element').on('edge', function(event, slick, direction){
+console.log('edge was hit')
+});
+
+// On before slide change
+$('.your-element').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+console.log(nextSlide);
+});
+
+$('.your-element').slick('slickAdd',"<div></div>");
+
+// Get the current slide
+var currentSlide = $('.your-element').slick('slickCurrentSlide');
+
+
+// Manually refresh positioning of slick
+$('.your-element').slick('setPosition');
+  </script>
+
+  </body>
+</html>

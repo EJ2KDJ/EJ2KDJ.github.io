@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Contact us</title>
+    <link rel="stylesheet" href="index.css">
+    <nav>  
+      <a class="nav-link"href="about.html">About</a>
+        <a class="nav-link"href="index.html">Home</a>
+        <a class="nav-link"href="contact.html">Contacts</a>
+        <a class="nav-link"href="pricing.html">Products</a> 
+        <a class="nav-link"href="Faq.html" >FAQ</a>
+      </nav>
+</head>
+<body>
+    <h1 >Contact us</h1>
+
+    <?=$thankYou ?>
+ 
+    <form method="post" action="contact.php" >
+      <label >Name:</label>
+      <input name="sender">
+
+      <label >Email Address:</label>
+      <input name="senderEmail">
+
+      <label>Message:</label>
+      <textarea name="message"  cols="20" rows="5"></textarea>
+
+      <input type="submit" name="submit">
+    </form>
+
+</body>
+</html>
