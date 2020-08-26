@@ -51,6 +51,15 @@ nav{
 /* Ids */
 
 
+
+
+#me{
+    text-align: center;
+    width: 100vh;
+    height: 100vh;
+    background:url();
+}
+
 #paypal-container{
 background-color: lightseagreen;
 margin: 0; 
