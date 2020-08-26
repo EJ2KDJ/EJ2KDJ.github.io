@@ -151,6 +151,11 @@ text-align: center;
 
 /* Classes */
 
+.paypal-button {
+    z-index: 0;
+
+}
+
 .nav-link:hover{
     
     border-radius: 5px;

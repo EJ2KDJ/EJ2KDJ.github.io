@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
   <style>
-      
+
 .container {
+    position: absolute;
+    top: 100%;
     background-color: #3d5369;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
-    height: 100vh;
+    
 }
 
 .button{
@@ -28,9 +29,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    width: 100vw;
+    width:  100vw;
     height: 100vh;
+    position: fixed;
     bottom: 0;
     right: 0;
     background-color: rgba(0,0,0,0.80);
@@ -163,29 +164,29 @@
       <br>
       <p class="pi">Want this? Go to our Products page to find out more!</p>
 
-      
+    <div class="container">
+        <a href="#popup" class="button">open The Popup</a>
+    
+        <div class="popup" id="popup">
+            <div class="popup-inner">
+                <a class="popup-close" href="#">X</a>
+                <div class="popup-photo">
+                    <img src="image/Cs.jpg" alt="">
+                </div>
+    
+                <div class="popup-text">
+                    <h1>The popup of awesomeness </h1>
+                    <p>csgo, awping , counter-strafing sit amet s1mple #1 lorem ipsum KennyS #1 awpein</p>
+                </div>
+    
+    
+            </div>
+        </div>
 
     </div>
     
 
-    <div class="container">
-      <a href="#popup" class="button">open The Popup</a>
-
-      <div class="popup" id="popup">
-      <div class="popup-inner">
-          <a class="popup-close" href="#">X</a>
-          <div class="popup-photo">
-              <img src="image/Cs.jpg" alt="">  
-          </div>
-
-          <div class="popup-text">
-              <h1>The popup of awesomeness </h1>
-              <p>csgo, awping , counter-strafing sit amet s1mple #1 lorem ipsum KennyS #1 awpein</p>
-          </div>
-
-
-      </div>
-  </div>
+    
 </div>
   </div>
 
@@ -193,6 +194,7 @@
   
 
  </body>
+
 
 
  <div id="paypal-container">
@@ -207,7 +209,6 @@
             label: 'pay',
             tagline: 'false',
             size: 'responsive',
-
             
         },
         createOrder: function(data, actions) {
