@@ -2,8 +2,10 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    margin: 0;
+    margin: 0 auto;
     background-color: #165460;
+    place-items: center;
+    justify-content: center;
 }
 h1{
     color: lightseagreen;
@@ -18,17 +20,15 @@ img{
     width: 70%;
 }
 
-
 ul{
     background-color: teal;
     list-style-type: none;
     margin-bottom: 20px;
-    
 }
 
 form{
    align-items: center;
-    justify-content: center;
+    place-items: center;
     padding: 10px;
     background-color: lightseagreen;
     margin: 0 auto;
@@ -38,20 +38,15 @@ form{
 }
 
 nav{
+    width: 100vw;
     background-color: lightseagreen;
-    display: flex;
+   display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 5px;
-      
+    padding: 20px;    
   }
 
-
-
 /* Ids */
-
-
-
 
 #me{
     text-align: center;
@@ -72,7 +67,6 @@ text-align: center;
     font-weight: bold;
     font-size: 1.2em;
     padding: 10px;
-    
 }
 
 #contact_heading{
@@ -80,15 +74,16 @@ text-align: center;
     margin: 0 auto;
     padding: 10px;
 }
+
 #homep{
     display: flex;
     max-width: 100%;
     background-color: lightseagreen;
     line-height: 1.5;
     padding: 10px;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
+
 #aboutp{
     background-color: lightseagreen;
     display: flex;
@@ -102,7 +97,6 @@ text-align: center;
 }
 
 #footerp{
-
     text-align: center;
     text-decoration: underline;
 }
@@ -133,7 +127,7 @@ text-align: center;
   
 #social-ul{
     display: flex;
-    justify-content: center;
+    place-items: center;
     list-style-type: none;
     padding: 20px;
     margin: 0;
@@ -148,16 +142,9 @@ text-align: center;
     margin: 0 10px;
   }
 
-
 /* Classes */
 
-.paypal-button {
-    z-index: 0;
-
-}
-
 .nav-link:hover{
-    
     border-radius: 5px;
     transform: scale(1.1);
     background-color: #154360 ;
@@ -173,12 +160,12 @@ text-align: center;
 .flex-container {
     margin: 10px;
     display: flex;
+    justify-content: center;
 }
 
 .product {
-    text-align: center;
-    padding: 15px;
-    flex: 1;
+    padding: 10px;
+    flex: 1 1 ;
     background-color: lightseagreen;
     border-radius: 0.5rem;
 }  
@@ -187,29 +174,16 @@ text-align: center;
     margin-right: 20px;
 } 
 
-
-
-
 .links{
     align-items: flex-end;
     display: flex;
     padding:15px;
 }
 
-
 .nav-link{
-    
-    padding:20px;
+    max-width: 100%;
+    padding: 20px;
     color: black;
     text-decoration: none;
-    margin: 0 25px;
-  }
-
-
-
-
-
-
-
-
-
+    margin: 0 10px;
+}
