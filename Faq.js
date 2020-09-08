@@ -7,5 +7,8 @@ accordionItemHeaders.forEach(accordionItemHeader => {
         if (accordionItemHeader.classList.contains("active")) {
             accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
         }
+        else {
+            accordionItemBody.style.maxHeight = 0;
+        }
     });
 });
