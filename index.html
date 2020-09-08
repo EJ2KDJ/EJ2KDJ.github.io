@@ -7,13 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ej's first webpage</title>
   <link rel="stylesheet" href="index.css">
+  <div class="topnav" id="myTopnav">
   <nav>
     <a class="nav-link"href="about.html">About</a>
     <a class="nav-link"href="index.html">Home</a>
     <a class="nav-link"href="contact.html">Contacts</a>
     <a class="nav-link"href="pricing.html">Products</a> 
     <a class="nav-link"href="Faq.html" >FAQ</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </nav>
+  </div>
 </head>
 <body>
 <h1>Hello , welcome to my webpage!</h1>
@@ -69,7 +74,18 @@
         }
     }).render('#paypal-button-container');
   </script>
+  
  </div>
+ <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
  <footer>
    <div>
   <ul id="social-ul">
@@ -77,8 +93,6 @@
     <li><a href="https://www.facebook.com/ej.salga.33" target="_blank"><i class="fab fa-facebook"></i></a></li>
   </ul>
 </div>
-
-
 <p id="footerp">All products shown in here are for project purposes only, <strong>not</strong> for sale.</p>
  </footer>
 </html>
