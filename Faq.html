@@ -8,13 +8,18 @@
     <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="index.css">
     <script src="test.js" defer></script>
+<div class="topnav" id="myTopnav">
     <nav>
-        <a class="nav-link"href="about.html">About</a>
-        <a class="nav-link"href="index.html">Home</a>
-        <a class="nav-link"href="contact.html">Contacts</a>
-        <a class="nav-link"href="pricing.html">Products</a> 
-        <a class="nav-link"href="Faq.html" >FAQ</a>
-   </nav>
+        <a class="nav-link" href=" index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contacts</a>
+        <a class="nav-link" href="pricing.html">Products</a>
+        <a class="nav-link" href="Faq.html">FAQ</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+</div>
 </head>
 <body>
     <h1>FAQ</h1>
@@ -51,5 +56,16 @@
       </div>
     </div>
 </div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </body>
 </html>

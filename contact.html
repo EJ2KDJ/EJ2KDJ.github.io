@@ -8,13 +8,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title >Contact us</title>
     <link rel="stylesheet" href="index.css">
-    <nav>  
-      <a class="nav-link"href="about.html">About</a>
-        <a class="nav-link"href="index.html">Home</a>
-        <a class="nav-link"href="contact.html">Contacts</a>
-        <a class="nav-link"href="pricing.html">Products</a> 
-        <a class="nav-link"href="Faq.html" >FAQ</a>
+    <div class="topnav" id="myTopnav">
+      <nav>
+        <a class="nav-link" href=" index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contacts</a>
+        <a class="nav-link" href="pricing.html">Products</a>
+        <a class="nav-link" href="Faq.html">FAQ</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </nav>
+    </div>
 </head>
 <body>
     <h1 >Contact us</h1>
@@ -33,6 +38,15 @@
 
       <input type="submit" name="submit">
     </form>
-
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
 </body>
 </html>
