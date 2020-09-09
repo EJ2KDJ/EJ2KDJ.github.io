@@ -38,12 +38,7 @@ form{
 
 /* Ids */
 
-#me{
-    text-align: center;
-    width: 100vh;
-    height: 100vh;
-    background-size: cover;
-}
+
 
 #paypal-container{
 background-color: lightseagreen;
@@ -88,7 +83,7 @@ text-align: center;
 
 #footerp{
     text-align: center;
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 #name{
