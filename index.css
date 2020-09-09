@@ -177,8 +177,7 @@ padding: 10px;
     transform: scale(1.1);
     background-color: #154360 ;
     transition-property: background;
-    transition-duration: 1s;
-    transition-delay: 0.1s;
+    transition-duration: 0.5s;
         }
 
         .topnav .icon {
