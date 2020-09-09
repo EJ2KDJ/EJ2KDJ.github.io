@@ -159,6 +159,7 @@ padding: 10px;
            overflow: hidden;
             background-color: lightseagreen;
             padding: 10px;
+            width:  100%;
         }
 
         .topnav a {
