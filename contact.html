@@ -23,22 +23,18 @@
     </div>
 </head>
 <body>
-    <h1 >Contact us</h1>
-
-    <?=$thankYou ?>
- 
-    <form method="post" action="contact.php" >
-      <label >Name:</label>
-      <input name="sender">
-
-      <label >Email Address:</label>
-      <input name="senderEmail">
-
-      <label>Message:</label>
-      <textarea name="message"  cols="20" rows="5"></textarea>
-
-      <input type="submit" name="submit">
-    </form>
+  <div id="form">
+  <form action="">
+    <label for="name">Name:</label>
+    <input type="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" name="" id="" required>
+    <br>
+    <label for=""></label>
+    <input type="text">
+  </form>
+  </div>
 <script>
   function myFunction() {
     var x = document.getElementById("myTopnav");

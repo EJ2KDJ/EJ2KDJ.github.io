@@ -29,17 +29,28 @@ ul{
 }
 
 form{
-   align-items: center;
-    place-items: center;
-    padding: 10px;
-    background-color: lightseagreen;
-    margin: 0 auto;    
+   background-color: lightseagreen;
+   justify-content: center;
+   margin: auto;
+   margin-left: 40px;
+   margin-right: 40px;
+   margin-top: 40px;
+   padding: 20px;
+   border-radius: 5px;
+   display: inline-block;
+   text-align: left;
 }
-
+input{
+    margin: 10px;
+}
 
 /* Ids */
 
 
+#form{
+    display: block;
+    text-align: center;
+}
 
 #paypal-container{
 background-color: lightseagreen;
