@@ -4,17 +4,32 @@ html{
 }
 body{
     margin: 0 auto;
-    background-color: #165460;
     place-items: center;
     justify-content: center;
 }
+
 h1{
+    padding: 0;
     color: lightseagreen;
     text-align: center;
 }
 
 h3{
     padding-left: 10px;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    padding: 0;
+}
+
+footer{
+    
+    margin: 0 auto;
+    place-items: center;
+    background: lightseagreen;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 img{
@@ -23,9 +38,12 @@ img{
 }
 
 ul{
-    background-color: teal;
+    justify-content: center;
+  
     list-style-type: none;
+    display: inline-block;
     margin-bottom: 20px;
+
 }
 
 form{
@@ -35,10 +53,10 @@ form{
    margin-left: 40px;
    margin-right: 40px;
    margin-top: 40px;
-   padding: 20px;
    border-radius: 5px;
    display: inline-block;
    text-align: left;
+   padding: 10px;
 }
 input{
     margin: 10px;
@@ -53,17 +71,17 @@ input{
 }
 
 #paypal-container{
-background-color: lightseagreen;
-margin: 0; 
-padding: 15px;
+padding: 5px;
 text-align: center;
+
 }
 
 #Wt{
+    color: lightseagreen;
     text-align: center;
     font-weight: bold;
     font-size: 1.2em;
-    padding: 10px;
+
 }
 
 #contact_heading{
@@ -124,19 +142,17 @@ text-align: center;
   
 #social-ul{
     display: flex;
-    place-items: center;
+    justify-content: center;
     list-style-type: none;
     padding: 20px;
     margin: 0;
   }
-  #social-ul a{
-    font-size: 20px;
-    margin: 0 10px;
-  }
+ 
   #social-ul i{
+    text-align: center;
     font-size: 40px;
     color: #fff;
-    margin: 0 10px;
+    margin: 0 20px;
   }
 
 /* Classes */
