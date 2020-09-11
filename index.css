@@ -60,8 +60,10 @@ form{
 }
 
 textarea{
+    margin: 10px;
     border-radius: 5px;
     border: 0;
+    padding: 10px;
 }
 
 input{
