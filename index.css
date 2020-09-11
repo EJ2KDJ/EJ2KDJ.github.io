@@ -58,8 +58,17 @@ form{
    text-align: left;
    padding: 10px;
 }
+
+textarea{
+    border-radius: 5px;
+    border: 0;
+}
+
 input{
     margin: 10px;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
 }
 
 /* Ids */
@@ -68,6 +77,7 @@ input{
 #form{
     display: block;
     text-align: center;
+   
 }
 
 #paypal-container{
