@@ -55,7 +55,7 @@ form{
    display: inline-block;
    text-align: left;
    padding: 10px;
-   box-shadow: 4px 4px 5px rgba(0, 0, 0,  0.3);
+
 }
 
 textarea{
@@ -184,6 +184,7 @@ background: #20b2aa;
 border-radius: 0.5rem;
 margin: 5px;
 padding: 10px;
+   box-shadow: 4px 4px 5px rgba(0, 0, 0,  0.3);
 }
 
 .product-item{
@@ -192,6 +193,7 @@ padding: 10px;
     border-radius: 0.5rem;
     margin: 5px;
     padding: 10px;
+       box-shadow: 4px 4px 5px rgba(0, 0, 0,  0.3);
 }
 .product:first-child {
     margin-right: 20px;
