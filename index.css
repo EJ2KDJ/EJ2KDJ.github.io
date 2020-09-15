@@ -32,7 +32,7 @@ footer{
 
 img{
     width: 75%;
-    margin: 20px;
+    margin: 0 auto;
 }
 
 ul{
@@ -169,7 +169,7 @@ text-align: center;
 
 /* Classes */
 .flex-container {
-    justify-content: center;
+   margin: 0 auto;
 }
 
 .product-2{
@@ -183,6 +183,7 @@ text-align: center;
 }
 
 .product{
+   
     text-align: center ;
    width: 50%;
     background: #20b2aa;  
@@ -193,8 +194,9 @@ text-align: center;
 }
 
 .product-item{
+    text-align: center;
+    column-gap: 30px;
     width: 75%;
-    display: flex;
     justify-content: center;
     background: #20b2aa;  
     border-radius: 0.5rem;
