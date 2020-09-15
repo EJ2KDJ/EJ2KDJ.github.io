@@ -193,6 +193,7 @@ text-align: center;
 }
 
 .product-item{
+    width: 75%;
     display: flex;
     justify-content: center;
     background: #20b2aa;  
