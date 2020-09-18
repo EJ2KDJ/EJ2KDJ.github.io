@@ -1,5 +1,5 @@
 html{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat','serif', sans-serif;
     
 }
 body{
@@ -168,6 +168,11 @@ text-align: center;
   }
 
 /* Classes */
+.specs{
+    text-align: left;
+    list-style-type: disc;
+}
+
 .flex-container {
    margin: 0 auto;
 }
