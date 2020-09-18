@@ -73,13 +73,11 @@ input{
 }
 
 /* Ids */
-
-
 #form{
+    margin: 0 auto;
     display: block;
     text-align: center;
-    
-   
+    padding: 15px;
 }
 
 #paypal-container{
