@@ -91,11 +91,7 @@ input{
     padding: 15px;
 }
 
-#paypal-container{
-padding: 5px;
-text-align: center;
 
-}
 
 #Wt{
     color: lightseagreen;
@@ -177,6 +173,12 @@ text-align: center;
   }
 
 /* Classes */
+
+.paypal-container{
+padding: 5px;
+text-align: center;
+}
+
 .specs{
     text-align: left;
     list-style-type: disc;
