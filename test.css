@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    color: lightseagreen;
+    color:  #408ec6;
 }
 
 h1{
@@ -25,7 +25,7 @@ h1{
 }
 
 .accordion-item{
-    background-color: lightseagreen;
+    background-color:  #408ec6;
     color: #121;
     margin: 1rem 0;
     border-radius: 0.5rem;
@@ -64,6 +64,6 @@ h1{
     padding: 1rem;
     line-height: 1.5rem;
     border-top: 3px solid;
-    border-image: linear-gradient(to right, #fff, lightseagreen, #fff)1;
+    border-image: linear-gradient(to right,#1e2761, #408ec6, #1e2761)1;
     
 }
