@@ -15,6 +15,9 @@ h1{
     color: #408ec6;
     text-align: center;
 }
+h2{
+    color: #1e2761;
+}
 
 h3{
     color:  #1e2761;
@@ -135,6 +138,12 @@ input{
     text-align: center;
     margin: 0 auto;
 }
+#footer{
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+
+}
 
 #footerp{
     text-align: center;
@@ -212,7 +221,7 @@ text-align: center;
     text-align: center ;
    width: 50%;
     background: #408ec6;  
-    margin: 5px auto;
+    margin: 20px auto;
     border-radius: 0.5rem;
     padding: 10px;
    box-shadow: 4px 4px 5px rgba(0, 0, 0,  0.3);
