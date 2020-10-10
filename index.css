@@ -2,6 +2,7 @@ html{
     font-family: 'Montserrat','serif', sans-serif;
     
 }
+
 body{
     background: #1e2761;
     margin: 0 auto;
@@ -16,6 +17,7 @@ h1{
 }
 
 h3{
+    color:  #1e2761;
     padding-left: 10px;
     text-align: center;
 }
@@ -37,8 +39,8 @@ img{
 }
 
 ul{
+    color:  #1e2761
     justify-content: center;
-  
     list-style-type: none;
     display: inline-block;
     margin-bottom: 20px;
@@ -46,6 +48,7 @@ ul{
 }
 
 form{
+    color:  #1e2761;
    background-color: #408ec6;
    justify-content: center;
    margin: auto;
@@ -67,6 +70,7 @@ textarea{
 }
 
 input{
+   
     margin: 10px;
     border-radius: 5px;
     border: 0;
@@ -77,6 +81,8 @@ input{
 /* Ids */
 
 #Submit{
+    font-family: 'Montserrat','serif', sans-serif;
+    color:  #1e2761;
     padding: 15px;
     background:#408ec6;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -118,6 +124,7 @@ input{
 }
 
 #aboutp{
+    color:  #1e2761;
     background-color: #408ec6;
     display: flex;
     max-width: 700px;
@@ -241,7 +248,7 @@ text-align: center;
         .topnav a {
             float: left;
             display: block;
-            color: black;
+            color: #1e2761;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
@@ -251,7 +258,7 @@ text-align: center;
         .topnav a:hover{
                 border-radius: 5px;
     transform: scale(1.1);
-    background-color: #154360 ;
+    background-color: #1978a5;
     transition-property: background;
     transition-duration: 0.5s;
         }
